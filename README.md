@@ -27,9 +27,28 @@ existing chats, create new chats, edit messages, and delete chats.
 - Method-Override -- Enables HTTP methods such as PUT and DELETE
   through forms
 - HTML/CSS -- Frontend structure and styling
-
 The project's package.json currently includes Express, EJS, Mongoose,
 and Method Override as dependencies.
+
+📂 Project Structure
+Chat-Management-App/
+│
+├── index.js
+├── package.json
+├── package-lock.json
+│
+├── models/
+│   └── chats.js
+│
+├── views/
+│   ├── index.ejs
+│   ├── new.ejs
+│   └── edit.ejs
+│
+├── public/
+│   └── style.css
+│
+└── README.md
 
 The models, views, and public folders shown above are required
 by the current server configuration.
